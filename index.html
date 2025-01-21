@@ -5,40 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kuldeep Patel - Web Profile</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+            background: linear-gradient(135deg, #0072ff, #00c6ff);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         .profile-container {
             max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
+            background: rgba(255, 255, 255, 0.1);
             padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
         }
         h1 {
-            color: #333;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
         }
         .quote {
             font-style: italic;
-            color: #666;
+            color: #ddd;
             margin: 20px 0;
+            text-align: center;
+        }
+        .info {
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        .info strong {
+            color: #00f3ff;
         }
         .achievement {
             margin-top: 20px;
+        }
+        .achievement strong {
+            color: #00f3ff;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
     <div class="profile-container">
         <h1>Kuldeep Patel</h1>
-        <p><strong>Age:</strong> 17 years</p>
         <p class="quote">"Pushing my limits"</p>
+        <div class="info">
+            <p><strong>Age:</strong> 17 years</p>
+            <p><strong>Education:</strong> 10th Grade Student</p>
+            <p><strong>Profession:</strong> Python Backend Developer</p>
+            <p><strong>Hobbies:</strong> Coding, Exploring New Technologies, and Gaming</p>
+        </div>
         <p class="achievement"><strong>Achievement:</strong> Owner of a Telegram channel with over 2,000 members</p>
+        <div class="footer">
+            <p>Connect with me for more exciting projects!</p>
+        </div>
     </div>
 </body>
 </html>
