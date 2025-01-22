@@ -1,78 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuldeep Patel - Web Profile</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-        
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #0072ff, #00c6ff);
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .profile-container {
-            max-width: 600px;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            backdrop-filter: blur(10px);
-        }
-        h1 {
-            color: #fff;
-            font-weight: 700;
-            text-align: center;
-        }
-        .quote {
-            font-style: italic;
-            color: #ddd;
-            margin: 20px 0;
-            text-align: center;
-        }
-        .info {
-            margin: 15px 0;
-            line-height: 1.8;
-        }
-        .info strong {
-            color: #00f3ff;
-        }
-        .achievement {
-            margin-top: 20px;
-        }
-        .achievement strong {
-            color: #00f3ff;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #ccc;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triyansh's Profile</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="profile-container">
-        <h1>Kuldeep Patel</h1>
-        <p class="quote">"Pushing my limits"</p>
-        <div class="info">
-            <p><strong>Age:</strong> 17 years</p>
-            <p><strong>Education:</strong> 10th Grade Student</p>
-            <p><strong>Profession:</strong> Python Backend Developer</p>
-            <p><strong>Hobbies:</strong> Coding, Exploring New Technologies, and Gaming</p>
-        </div>
-        <p class="achievement"><strong>Achievement:</strong> Owner of a Telegram channel with over 2,000 members</p>
-        <div class="footer">
-            <p>Connect with me for more exciting projects!</p>
-        </div>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Triyansh</span></h1>
+      <p>Tech Enthusiast | Adventurer | Digital Explorer</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn">Explore My Journey</a>
+        <a href="#contact" class="btn">Connect With Me</a>
+      </div>
     </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hey there! I'm Triyansh, an 18-year-old tech enthusiast and adventure lover from India. I thrive on exploring new trails and tinkering with technology to solve problems and make life better.</p>
+    <p>Being part of the free internet community, I specialize in creating VPN tunnels, routing internet through VPS, and utilizing CDN hosts like Apache, Bunny, Fastly, Nginx, Cloudflare, Cloudfront, and Microsoft. I also love helping others access unlimited free internet.</p>
+    <p><strong>Fun Fact:</strong> "Life's a journey—whether it's trekking through mountains or exploring the depths of the internet."</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill-item">VPN Setup & Configuration</div>
+      <div class="skill-item">CDN Tunneling</div>
+      <div class="skill-item">VPS Management</div>
+      <div class="skill-item">Adventure Travel</div>
+      <div class="skill-item">Trekking</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:kp7846581@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://www.instagram.com/sarcastic_boyyy143?igsh=MWtwYndoZ252Z3VzMA==" target="_blank">Instagram</a>
+      <a href="https://t.me/Triyansh_001" target="_blank">Telegram</a>
+      <a href="mailto:kp7846581@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Triyansh. All rights reserved.</p>
+  </footer>
 </body>
 </html>
