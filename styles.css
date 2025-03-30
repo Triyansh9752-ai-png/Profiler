@@ -176,3 +176,47 @@ footer {
     transform: translateY(0);
   }
                         }
+/* Expertise Section */
+.expertise {
+  background: linear-gradient(135deg, #1a1a2b, #0f0f1a);
+  padding: 60px 20px;
+  color: #cfcfcf;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.expertise h2 {
+  font-size: 2.2em;
+  color: #f4f4f4;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.expertise-item {
+  background: rgba(20, 20, 30, 0.9);
+  border: 1px solid #2e2e40;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.expertise-item:hover {
+  transform: translateY(-5px);
+}
+
+.expertise-item h3 {
+  color: #00d4ff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.expertise-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #c1c1c1;
+}
